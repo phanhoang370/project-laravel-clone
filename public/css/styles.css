@@ -1,0 +1,219 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.demo {
+    margin: 3em 0;
+    padding: 7.5em 0 5.5em;
+    background: #26941f;
+}
+.demo:hover .gridster {
+    margin: 0 auto;
+    opacity: .8;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+.content {
+    color: white;
+}
+.gridster .gs-w {
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.gridster .player {
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background: #BBB;
+}
+.gridster .gs-w.try {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 37px -169px;
+}
+.gridster .preview-holder {
+    border: none !important;
+    border-radius: 0 !important;
+    background: red !important;
+}
+.gridster ul {
+    /*background-color: #EFEFEF;*/
+}
+.gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    list-style: none;
+    font-weight: bold;
+}
+.gridster-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.controls {
+    margin-bottom: 20px;
+}
+/*# sourceMappingURL=demos/assets/css/demo.css.map */
+.main-chart .chart {
+    width	: 19%;
+    height	: 500px;
+    display: inline-block;
+}
+#chartdiv1 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv2 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv3 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv4 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv5 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv6 {
+    width	: 100%;
+    height	: 260px;
+}
+#chartdiv7 {
+    width	: 100%;
+    height	: 300px;
+}
+#chartdiv8 {
+    width	: 100%;
+    height	: 250px;
+}
+.chart-content .chart-top {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.chart-content .chart-bottom {
+    width: 100%;
+}
+.amcharts-chart-div a {display:none !important;}
+.chrome-browser {
+    background: white;
+}
+.iframe {
+    height: 265px;
+    border:none;
+    width: 100%;
+}
+#lang {
+    margin: 30px 0;
+}
+
+.bootstrap-table .fixed-table-toolbar .columns .dropdown-menu {
+    min-width: 130px !important;
+}
+
+
+.modal-backdrop{
+    z-index: auto ;
+}
+.modal-content {
+    margin-top: 150px;
+}
+
+.card {
+    margin-bottom: 0;
+}
+
+section.card{
+    height: 100%;
+}
+
+
+.jstree-default .jstree-node {
+    text-align: left !important;
+}
+.jstree-default>.jstree-container-ul>.jstree-node {
+    text-align: left !important;
+}
+#datatable-session{
+    height: 100%;
+    overflow: auto;
+}
+.position-static {
+    position: static;
+    padding: 8px 15px 0 0;
+    height: 60px;
+}
+.main-login {
+    margin-top: 20px;
+}
+.main-login .panel-heading {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.page-center {
+    margin-top: 30px;
+}
+.marginTop {
+    margin-top: 200px;
+}
+
+.fix-error {
+    font-size: 13px; letter-spacing: -1px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transition(all 5s);
+    top: 80%;
+}
+.dropdown-logout {
+    min-width: 7rem;
+    left: -55px;
+}
+.dropdown-menu-lang {
+    min-width: 8rem;
+    width: 8rem !important;
+}
+.display-block {
+    display: block;
+}
+.site-header .dropdown-menu-messages {
+    width: 215px !important;
+}
+.dropdown-menu-messages {
+    left: -160px;
+}
+.site-header .dropdown-menu-notif {
+    width: 215px !important;
+}
+.dropdown-menu-notif {
+    left: -160px;
+}
+.jstree-main {
+    overflow: hidden;
+}
+/*#tree-container ul {*/
+    /*background-color: white;*/
+/*}*/
+.jstree-default .jstree-disabled.jstree-clicked {
+    background: white;
+    box-shadow: inset 0 0 1px #ffffff;
+}
+.vakata-context {
+    z-index: 99;
+}
